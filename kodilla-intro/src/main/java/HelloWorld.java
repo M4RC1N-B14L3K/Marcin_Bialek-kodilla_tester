@@ -4,5 +4,8 @@ public class HelloWorld {
         String myName = "Marcin";
         int myAge = 30;
         char mySurname = 'B';
+        System.out.println(myName);
+        System.out.println(myAge);
+        System.out.println(mySurname);
     }
 }
