@@ -6,5 +6,9 @@ public class SimpleArray {
             fruits[2] = "orange";
             fruits[3] = "melon";
             fruits[4] = "pineapple";
+
+        String fruit = fruits[2];
+
+        System.out.println(fruit);
     }
 }
