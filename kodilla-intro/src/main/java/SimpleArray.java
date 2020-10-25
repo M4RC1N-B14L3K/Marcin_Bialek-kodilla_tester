@@ -10,5 +10,9 @@ public class SimpleArray {
         String fruit = fruits[2];
 
         System.out.println(fruit);
+
+        int numberOfFruits = fruits.length;
+
+        System.out.println("Moja lista ma " + numberOfFruits + " elementów.");
     }
 }
