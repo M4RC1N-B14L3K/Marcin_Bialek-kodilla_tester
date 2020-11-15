@@ -1,6 +1,6 @@
 public class User {
     public static void main(String[] args) {
-        String[] user = new String[4];
+        String[] users = new String[4];
 
         User anna = new User("Anna");
         User betty = new User("Betty");
@@ -9,7 +9,10 @@ public class User {
 
         User[] users = {anna, betty, carl, eva};
 
-        System.out.println(user);
+        int result = 0;
+        for (int i = 0; i < users.length; i++) {
+            result = result + users.length[i];
+        }
         }
     }
 }
