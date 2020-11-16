@@ -4,7 +4,7 @@ public class Book {
     private String title;
 
     public String (String author, String title) {
-        Book book = Book.of("Isaac Asimov", "The Galaxy");
-        return Book;
+        String newBook = author + title;
+        return newBook(author, title);
     }
 }
