@@ -1,7 +1,19 @@
 public class User {
-    public static void main(String[] args) {
-        String userName;
-        int userAge;
+    String name;
+    int age;
 
+    public User(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+    public int sum(this.age) {
+        this.age sum;
+    }
+
+    public int srednia( int sum)
+
+    public void checkAge() {
+        if (this)
+        }
     }
 }
